@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 994px) {
+    .offer-fix {
+        margin-top: 40px;
+    }
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    color: white;
+}
+.header-border {
+    border-bottom: 1px solid lightgrey;
+}
+.link-border {
+    border-bottom: 1px solid black;
+}
+.active-black {
+    color: black !important;
+}
+.nav-link:hover {
+    color: black !important;
+}
+.blank-div {
+    width: 100%;
+    height: 105px;
+}
+.check-us {
+    text-decoration: none;
+    outline: none;
+    color: red;
+    }
+.check-us:hover {
+    text-decoration: none;
+    color: black;
+}
+.check-us-arrow {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+.rounded-car {
+    border-radius: 5px;
+}
+.sign-border {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.footer-margin {
+    margin-top: 100px;
+}

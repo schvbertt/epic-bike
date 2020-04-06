@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Epic Bike</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon"/> 
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' href='css/styles.css'>
+        <link rel='stylesheet' href='src/bootstrap/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='fonts/css/all.css' />
+        <script defer src='src/jquery/jquery.slim.min.js'></script>
+        <script defer src='src/bootstrap/js/bootstrap.bundle.min.js'></script>
+    </head>
+<body>
+    <nav class='navbar fixed-top navbar-expand-lg navbar-light bg-white header-border'>
+
+        <div class='container'>
+        <a class='navbar-brand brand-epic' href='#'>
+            <img src='img/logo.png' width='160' class='d-inline-block align-bottom' alt='logo'>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class='collapse navbar-collapse'   id='collapseNav'>
+            <ul class='navbar-nav ml-auto h6 text-center'>
+                
+                <li class='nav-item'>
+                    <a class='nav-link' href='index'>
+                    <i class="fas fa-home fa-lg">&nbsp;</i>STRONA GŁÓWNA</a></a>
+                </li>
+
+                <li class='nav-item'>
+                    <a class='nav-link active-black' href='service'>
+                    <i class="fas fa-wrench fa-lg">&nbsp;</i>SERWIS</a>
+                </li>
+
+                <li class='nav-item'>
+                    <a class='nav-link' href='contact'>
+                    <i class="fas fa-mobile-alt fa-lg">&nbsp;</i>KONTAKT</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+    </nav>
+
+    <div class='blank-div'></div>
+    <!-- LOGO -->
+    <div class='container mt-3 text-center'>
+        <h1 class='h5'>
+        <i class="fas fa-wrench"></i>
+        SERWIS
+        </h1>
+        <hr class='mb-5'>
+    </div>
+
+    <div class='container'>
+    <div class='row'>
+
+        <!-- BIKE -->
+        <div class='col-md-6'>
+          <div class='h5 d-block text-center'>
+            <i class="fas fa-bicycle fa-5x"></i>
+            <p>ROWER</p>
+          </div>
+          <div class='col-md-12 mt-5'>
+
+
+
+
+            <div id="accordion">
+              <!-- ONE -->
+              <div>
+                <div class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <div id="headingOne">
+                    <h5 class='h5 sign-border p-1 text-center'>
+                      <i class="fas fa-angle-down"></i>
+                      <span class='mx-2'>OGÓLNE</span>
+                      <i class="fas fa-angle-down"></i>
+                    </h5>
+                  </div>
+                 </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>• SERWIS OGÓLNY - <b>XX zł</b><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- TWO -->
+              <div>
+                <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <div id="headingTwo">
+                  <h5 class='h5 sign-border p-1 text-center'>
+                    <i class="fas fa-angle-down"></i>
+                    <span class='mx-2'>PRZERZUTKI</span>
+                    <i class="fas fa-angle-down"></i>
+                  </h5>
+                </div>
+               </div>
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class='card-body'>
+                    <p>• REGULACJA PRZERZUTKI (PRZÓD) - <b>XX zł</b></p>
+                    <p>• REGULACJA PRZERZUTKI (TYŁ) - <b>XX zł</b></p>
+                    <p>• REGULACJA PRZERZUTEK (P+T) - <b>XX zł</b></p>
+                    <p>• WYMIANA LINKI (ZWYKŁA) - <b>XX zł</b></p>
+                    <p>• WYMIANA LINKI (NIERDZEWNA) - <b>XX zł</b></p>
+                    <p>• WYMIANA PRZERZUTKI (PRZÓD) - <b>XX zł</b></p>
+                    <p>• WYMIANA PRZERZUTKI (TYŁ) - <b>XX zł</b></p>
+                    <p>• WYMIANA HAMULCA (TYŁ) - <b>XX zł</b></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- THREE -->
+              <div>
+                <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                  <div id="headingThree">
+                    <h5 class='h5 sign-border p-1 text-center'>
+                      <i class="fas fa-angle-down"></i>
+                      <span class='mx-2'>HAMULCE</span>
+                      <i class="fas fa-angle-down"></i>
+                    </h5>
+                  </div>
+                 </div>
+                
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>• CENTROWANIE KOŁA - <b>XX zł</b></p>
+                    <p>• WYMIANA SZPRYCHY - <b>XX zł</b></p>
+                    <p>• ZAPLOT KOŁA - <b>XX zł</b></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- FOUR -->
+              <div>
+                <div class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <div id="headingFour">
+                    <h5 class='h5 sign-border p-1 text-center'>
+                      <i class="fas fa-angle-down"></i>
+                      <span class='mx-2'>KOŁA</span>
+                      <i class="fas fa-angle-down"></i>
+                    </h5>
+                  </div>
+                 </div>
+                
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>• CENTROWANIE KOŁA - <b>XX zł</b></p>
+                    <p>• WYMIANA SZPRYCHY - <b>XX zł</b></p>
+                    <p>• ZAPLOT KOŁA - <b>XX zł</b></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- FIVE -->
+              <div>
+                <div class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <div id="headingFive">
+                    <h5 class='h5 sign-border p-1 text-center'>
+                      <i class="fas fa-angle-down"></i>
+                      <span class='mx-2'>PIASTY</span>
+                      <i class="fas fa-angle-down"></i>
+                    </h5>
+                  </div>
+                 </div>
+                
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>• KONSERWACJA PIASTY (PRZÓD KULKI) - <b>XX zł</b></p>
+                    <p>• KONSERWACJA PIASTY (TYŁ KULKI) - <b>XX zł</b></p>
+                    <p>• KONSERWACJA PIASTY (PRZÓD MASZYNY) - <b>XX zł</b></p>
+                    <p>• KONSERWACJA PIASTY (TYŁ MASZYNY) - <b>XX zł</b></p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            
+
+            
+          </div>
+       </div>
+
+
+
+        <!-- SUSPENSION -->
+          <div class='col-md-6 offer-fix'>
+            <div class='h5 d-block text-center'>
+              <i class='fas fa-angle-double-down fa-5x'></i>
+              <i class='fas fa-angle-double-down fa-5x'></i>
+              <p>ZAWIESZENIE</p>
+            </div>
+          <div class='col-md-12 mt-5'>
+            <div id="accordionS">
+
+              <!-- ONE -->
+              <div>
+                <div class="collapsed" data-toggle="collapse" data-target="#collapseOneS" aria-expanded="false" aria-controls="collapseOneS">
+                  <div id="headingOneS">
+                    <h5 class='h5 sign-border p-1 text-center'>
+                      <i class="fas fa-angle-down"></i>
+                      <span class='mx-2'>OGÓLNE</span>
+                      <i class="fas fa-angle-down"></i>
+                    </h5>
+                  </div>
+                 </div>
+            
+                <div id="collapseOneS" class="collapse show" aria-labelledby="headingOneS" data-parent="#accordionS">
+                  <div class="card-body">
+                    <p>• SERWIS OGÓLNY - <b>XX zł</b><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span><br>
+                      <span>- xx</span></p>
+                    <p>• WYMIANA AMORTYZATORA - <b>XX zł</b></p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          </div>
+          
+      
+
+      </div>
+
+
+  
+    <!-- FOOTER -->
+    <footer class='container text-dark footer-margin'>
+      <hr>
+      <div class='row'>
+        <!-- FIRST COLUMN -->
+        <div class='col-md-6'>
+
+        </div>
+
+        <!-- SECOND COLUMN -->
+        <div class='col-md-3 text-center'>
+          <h1 class='h5'>USŁUGI</h1>
+            <p>
+              <small class='text-muted'>• SERWIS OGÓLNY • SERWIS GWARANCYJNY • SERWIS AMORTYZACJI • REGULACJE • WYMIANY •
+              </small>
+            </p>
+
+        </div>
+
+        <!-- THIRD COLUMN -->
+        <div class='col-md-3 text-center'>
+          <h1 class='h5'>KONTAKT</h1>
+            <p class='text-center'>
+              <small class='text-muted'>
+              <span class='font-weight-bold'>
+                EPIC BIKE</span>
+              <br>
+                ul. Cieszyńska 362
+              <br>
+                43-382 <span class='font-weight-bold'>Bielsko-Biała</span>
+              <br>
+                <i class="fas fa-phone"></i>&nbsp;
+                +48 513 313 987
+              </small>
+            </p>
+        </div>
+      </div>
+
+      <!-- SECOND ROW OF FOOTER -->
+      <hr>
+      <div class='row'>
+
+      <div class='col-md-8'>
+        <p><i class="far fa-arrow-alt-circle-right"></i>
+        Copyright @ 2020 All Rights Reserved by Epic Bike company.</p>
+      </div>
+
+      <div class='col-md-4 ml-auto text-center'>
+        <a href='https://www.facebook.com/Serwis.Epic.Bike/'>
+        <i class="fab fa-facebook-square fa-2x mr-1 text-dark"></i></a>
+        <i class="fab fa-instagram fa-2x mr-1 text-dark"></i>
+      </div>
+
+    </div>
+    </footer>
+</body>
+</html>
